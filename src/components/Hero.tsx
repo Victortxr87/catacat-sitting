@@ -7,24 +7,24 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
         <div className="text-center">
-          
-          <div className="flex items-center justify-center mb-6">
+         
+          <div className="flex items-center justify-center mb-6" data-aos="fade-up" data-aos-delay="100">
             <Cat className="w-16 h-16 text-teal-600 drop-shadow-lg" strokeWidth={1.5} />
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 tracking-tight">
+          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 tracking-tight" data-aos="fade-up" data-aos-delay="150">
             WhiskerCare
           </h1>
 
-          <p className="text-xl md:text-2xl text-gray-700 mb-4 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-gray-700 mb-4 max-w-3xl mx-auto leading-relaxed" data-aos="fade-up" data-aos-delay="200">
             Serviço Premium de Cuidados Felinos
           </p>
 
-          <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="250">
             Proteção total para seu gato enquanto você viaja. Visitas diárias com atenção especializada e monitoramento contínuo.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center" data-aos="fade-up" data-aos-delay="300">
             <a
               href="#pricing"
               className="inline-flex items-center px-8 py-4 bg-teal-600 text-white text-lg font-semibold rounded-full hover:bg-teal-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
@@ -41,15 +41,15 @@ export default function Hero() {
           </div>
 
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="p-6 rounded-2xl bg-white/80 border border-white shadow-lg">
+            <div className="p-6 rounded-2xl bg-white/80 border border-white shadow-lg" data-aos="fade-up" data-aos-delay="0">
               <div className="text-4xl font-bold text-teal-600 mb-2">45min</div>
               <div className="text-gray-600">Tempo mínimo garantido</div>
             </div>
-            <div className="p-6 rounded-2xl bg-white/80 border border-white shadow-lg">
+            <div className="p-6 rounded-2xl bg-white/80 border border-white shadow-lg" data-aos="fade-up" data-aos-delay="75">
               <div className="text-4xl font-bold text-teal-600 mb-2">500+</div>
               <div className="text-gray-600">Gatos cuidados</div>
             </div>
-            <div className="p-6 rounded-2xl bg-white/80 border border-white shadow-lg">
+            <div className="p-6 rounded-2xl bg-white/80 border border-white shadow-lg" data-aos="fade-up" data-aos-delay="150">
               <div className="text-4xl font-bold text-teal-600 mb-2">+10</div>
               <div className="text-gray-600">Anos de experiência</div>
             </div>

@@ -22,7 +22,7 @@ export default function Pricing() {
   return (
     <section id="pricing" className="py-24 bg-gradient-to-br from-gray-50 to-teal-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16" data-aos="fade-up">
           <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold text-teal-700 bg-white shadow-sm border border-teal-100 mb-4">
             Transparência total • sem surpresas
           </span>
@@ -38,7 +38,7 @@ export default function Pricing() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
-          <div className="bg-white rounded-3xl shadow-xl p-8 md:p-10 lg:col-span-2">
+          <div className="bg-white rounded-3xl shadow-xl p-8 md:p-10 lg:col-span-2" data-aos="fade-up" data-aos-delay="50">
             <div className="flex items-center mb-8">
               <MapPin className="w-6 h-6 text-teal-600 mr-3" />
               <h3 className="text-2xl font-bold text-gray-900">Valores por Região</h3>
@@ -61,7 +61,7 @@ export default function Pricing() {
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-emerald-600 to-teal-700 rounded-3xl shadow-2xl p-8 text-white relative overflow-hidden">
+          <div className="bg-gradient-to-br from-emerald-600 to-teal-700 rounded-3xl shadow-2xl p-8 text-white relative overflow-hidden" data-aos="fade-up" data-aos-delay="120">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,.08),transparent_30%),radial-gradient(circle_at_80%_0,rgba(255,255,255,.06),transparent_35%)]"></div>
             <div className="relative z-10">
               <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-white/20 border border-white/20 mb-4">
@@ -98,7 +98,7 @@ export default function Pricing() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <div className="bg-white rounded-3xl shadow-xl p-8">
+          <div className="bg-white rounded-3xl shadow-xl p-8" data-aos="fade-up" data-aos-delay="50">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Serviços Adicionais</h3>
             <div className="space-y-4">
               {additionalServices.map((service, index) => (
@@ -115,7 +115,7 @@ export default function Pricing() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-teal-600 to-teal-700 rounded-3xl shadow-xl p-8 text-white">
+          <div className="bg-gradient-to-br from-teal-600 to-teal-700 rounded-3xl shadow-xl p-8 text-white" data-aos="fade-up" data-aos-delay="120">
             <h3 className="text-2xl font-bold mb-6">Condições de Reserva</h3>
             <div className="space-y-4">
               <div className="flex items-start">
