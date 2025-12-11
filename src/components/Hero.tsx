@@ -1,16 +1,27 @@
-import { Cat, Heart, ShieldCheck, Sparkles } from 'lucide-react';
+import { Heart } from 'lucide-react';
 
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-cyan-50 via-white to-emerald-50 min-h-screen flex items-center">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(45,212,191,.25),transparent_45%),radial-gradient(circle_at_20%_20%,rgba(59,130,246,.18),transparent_35%),radial-gradient(circle_at_80%_0,rgba(14,165,233,.16),transparent_30%)]"></div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
-        <div className="text-center">
-         
-          <div className="flex items-center justify-center mb-6" data-aos="fade-up" data-aos-delay="100">
-            <Cat className="w-16 h-16 text-teal-600 drop-shadow-lg" strokeWidth={1.5} />
-          </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
+          <div className="text-center">
+            <div className="flex items-center justify-center mb-10" data-aos="fade-up">
+              <div className="cat-anim">
+                <div className="ear ear--left"></div>
+                <div className="ear ear--right"></div>
+                <div className="face">
+                  <div className="eye eye--left">
+                    <div className="eye-pupil"></div>
+                  </div>
+                  <div className="eye eye--right">
+                    <div className="eye-pupil"></div>
+                  </div>
+                  <div className="muzzle"></div>
+                </div>
+              </div>
+            </div>
 
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 tracking-tight" data-aos="fade-up" data-aos-delay="150">
             WhiskerCare
