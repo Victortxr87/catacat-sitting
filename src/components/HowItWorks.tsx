@@ -28,6 +28,9 @@ export default function HowItWorks() {
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
+          <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold text-teal-700 bg-teal-50 border border-teal-100 mb-4">
+            Fluxo guiado
+          </span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Processo Simples
           </h2>
@@ -41,7 +44,7 @@ export default function HowItWorks() {
             <div key={index} className="relative">
               <div className="text-center">
                 <div className="relative inline-block mb-6">
-                  <div className="w-20 h-20 bg-gradient-to-br from-teal-500 to-teal-600 rounded-full flex items-center justify-center shadow-lg">
+                  <div className="w-20 h-20 bg-gradient-to-br from-teal-500 to-teal-600 rounded-3xl flex items-center justify-center shadow-lg">
                     <step.icon className="w-10 h-10 text-white" />
                   </div>
                   <div className="absolute -top-2 -right-2 w-8 h-8 bg-gray-900 text-white rounded-full flex items-center justify-center text-sm font-bold">

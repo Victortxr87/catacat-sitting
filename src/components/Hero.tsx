@@ -1,14 +1,24 @@
-import { Cat, Heart } from 'lucide-react';
+import { Cat, Heart, ShieldCheck, Sparkles } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-teal-50 via-cyan-50 to-blue-50 min-h-screen flex items-center">
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNiIgc3Ryb2tlPSIjYTVmM2ZjIiBzdHJva2Utd2lkdGg9IjIiIG9wYWNpdHk9Ii4xIi8+PC9nPjwvc3ZnPg==')] opacity-40"></div>
+    <section className="relative overflow-hidden bg-gradient-to-br from-cyan-50 via-white to-emerald-50 min-h-screen flex items-center">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(45,212,191,.25),transparent_45%),radial-gradient(circle_at_20%_20%,rgba(59,130,246,.18),transparent_35%),radial-gradient(circle_at_80%_0,rgba(14,165,233,.16),transparent_30%)]"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
         <div className="text-center">
+          <div className="flex items-center justify-between bg-white/70 border border-white/60 shadow-lg rounded-full px-4 py-3 mb-12 backdrop-blur-lg max-w-2xl mx-auto">
+            <div className="flex items-center gap-2 text-sm font-semibold text-teal-700">
+              <ShieldCheck className="w-5 h-5" />
+              Sitters certificados + cobertura de responsabilidade
+            </div>
+            <div className="hidden sm:flex items-center text-sm font-semibold text-gray-700 gap-2">
+              <Sparkles className="w-5 h-5 text-amber-500" />
+              4.9★ clientes recorrentes
+            </div>
+          </div>
           <div className="flex items-center justify-center mb-6">
-            <Cat className="w-16 h-16 text-teal-600" strokeWidth={1.5} />
+            <Cat className="w-16 h-16 text-teal-600 drop-shadow-lg" strokeWidth={1.5} />
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 tracking-tight">
@@ -40,15 +50,15 @@ export default function Hero() {
           </div>
 
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="text-center">
+            <div className="p-6 rounded-2xl bg-white/80 border border-white shadow-lg">
               <div className="text-4xl font-bold text-teal-600 mb-2">45min</div>
               <div className="text-gray-600">Tempo mínimo garantido</div>
             </div>
-            <div className="text-center">
+            <div className="p-6 rounded-2xl bg-white/80 border border-white shadow-lg">
               <div className="text-4xl font-bold text-teal-600 mb-2">500+</div>
               <div className="text-gray-600">Gatos cuidados</div>
             </div>
-            <div className="text-center">
+            <div className="p-6 rounded-2xl bg-white/80 border border-white shadow-lg">
               <div className="text-4xl font-bold text-teal-600 mb-2">+10</div>
               <div className="text-gray-600">Anos de experiência</div>
             </div>
