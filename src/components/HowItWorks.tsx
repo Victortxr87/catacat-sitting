@@ -1,0 +1,68 @@
+import { MessageCircle, CalendarCheck, CreditCard, Home } from 'lucide-react';
+
+const steps = [
+  {
+    icon: MessageCircle,
+    title: 'Consulta Inicial',
+    description: 'Fale conosco sobre as necessidades e rotina do seu felino',
+  },
+  {
+    icon: CalendarCheck,
+    title: 'Confirmar Datas',
+    description: 'Acerte os detalhes de frequência e horários preferidos',
+  },
+  {
+    icon: CreditCard,
+    title: 'Confirmação',
+    description: 'Realize pagamento de 30% para garantir o agendamento',
+  },
+  {
+    icon: Home,
+    title: 'Cuidados Premium',
+    description: 'Desfrute de atualizações regulares e máximo cuidado',
+  },
+];
+
+export default function HowItWorks() {
+  return (
+    <section className="py-24 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            Processo Simples
+          </h2>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Começar é fácil. Apenas 4 passos até seu gato estar bem cuidado
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {steps.map((step, index) => (
+            <div key={index} className="relative">
+              <div className="text-center">
+                <div className="relative inline-block mb-6">
+                  <div className="w-20 h-20 bg-gradient-to-br from-teal-500 to-teal-600 rounded-full flex items-center justify-center shadow-lg">
+                    <step.icon className="w-10 h-10 text-white" />
+                  </div>
+                  <div className="absolute -top-2 -right-2 w-8 h-8 bg-gray-900 text-white rounded-full flex items-center justify-center text-sm font-bold">
+                    {index + 1}
+                  </div>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  {step.title}
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  {step.description}
+                </p>
+              </div>
+
+              {index < steps.length - 1 && (
+                <div className="hidden lg:block absolute top-10 left-full w-full h-0.5 bg-gradient-to-r from-teal-300 to-teal-200 -ml-4 -mr-4"></div>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
