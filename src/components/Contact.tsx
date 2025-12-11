@@ -6,10 +6,10 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Comece Agora
+            Comece agora
           </h2>
           <p className="text-xl text-teal-100 max-w-2xl mx-auto">
-            Contate-nos para uma sessão de apresentação gratuita
+            Contacte-nos para uma sessão de apresentação gratuita
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export default function Contact() {
               <Phone className="w-7 h-7 text-white" />
             </div>
             <div className="text-white font-semibold mb-1">Telefone</div>
-            <div className="text-teal-100 text-sm">Conversar</div>
+            <div className="text-teal-100 text-sm">Falar connosco</div>
           </a>
 
           <a
@@ -60,7 +60,7 @@ export default function Contact() {
 
         <div className="mt-12 text-center">
           <p className="text-teal-100 text-sm">
-            Resposta em 4 horas • Atendimento 7 dias por semana
+            Resposta em 4 horas • Disponíveis 7 dias por semana
           </p>
         </div>
       </div>

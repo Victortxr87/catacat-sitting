@@ -4,22 +4,22 @@ const steps = [
   {
     icon: MessageCircle,
     title: 'Consulta Inicial',
-    description: 'Fale conosco sobre as necessidades e rotina do seu felino',
+    description: 'Fale connosco sobre as necessidades e rotina do seu felino',
   },
   {
     icon: CalendarCheck,
     title: 'Confirmar Datas',
-    description: 'Acerte os detalhes de frequência e horários preferidos',
+    description: 'Combine os detalhes de frequência e horários preferidos',
   },
   {
     icon: CreditCard,
     title: 'Confirmação',
-    description: 'Realize pagamento de 30% para garantir o agendamento',
+    description: 'Efetue o pagamento de 30% para garantir o agendamento',
   },
   {
     icon: Home,
     title: 'Cuidados Premium',
-    description: 'Desfrute de atualizações regulares e máximo cuidado',
+    description: 'Receba atualizações regulares e máximo cuidado',
   },
 ];
 
@@ -32,10 +32,10 @@ export default function HowItWorks() {
             Fluxo guiado
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Processo Simples
+            Processo simples
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Começar é fácil. Apenas 4 passos até seu gato estar bem cuidado
+            Começar é fácil. Apenas 4 passos até o seu gato ficar bem cuidado
           </p>
         </div>
 

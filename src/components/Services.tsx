@@ -14,11 +14,11 @@ const services = [
   {
     icon: Heart,
     title: 'Companhia e Brincadeiras',
-    description: 'Tempo de qualidade dedicado ao comportamento e temperamento unique',
+    description: 'Tempo de qualidade dedicado ao comportamento e temperamento único',
   },
   {
     icon: Pill,
-    title: 'Administração de Remédios',
+    title: 'Administração de medicamentos',
     description: 'Gestão cuidadosa de prescrições veterinárias conforme indicado',
   },
   {
@@ -28,7 +28,7 @@ const services = [
   },
   {
     icon: AlertCircle,
-    title: 'Monitoramento Contínuo',
+    title: 'Monitorização contínua',
     description: 'Avaliação atenta de qualquer mudança no comportamento ou saúde',
   },
 ];
@@ -42,10 +42,10 @@ export default function Services() {
             Cobertura completa para o dia a dia
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Nossos Serviços Incluem
+            Os nossos serviços incluem
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Atendimento completo e responsável para a felicidade do seu gato
+            Acompanhamento completo e responsável para a felicidade do seu gato
           </p>
         </div>
 

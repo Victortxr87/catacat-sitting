@@ -3,8 +3,8 @@ import { MapPin, Clock, Calendar, Navigation, Zap } from 'lucide-react';
 const locations = [
   { name: 'Centro da Cidade', price: '18€' },
   { name: 'Zona Norte', price: '22€' },
-  { name: 'Zona Leste', price: '21€' },
-  { name: 'Zona Oeste', price: '24€' },
+  { name: 'Zona Oriental', price: '21€' },
+  { name: 'Zona Ocidental', price: '24€' },
   { name: 'Arredores', price: '26€' },
   { name: 'Subúrbios', price: '28€' },
   { name: 'Região Metropolitana', price: '32€' },
@@ -13,7 +13,7 @@ const locations = [
 const additionalServices = [
   { icon: Clock, label: 'Extensão de tempo', value: '5€ por cada 30min adicionais' },
   { icon: Calendar, label: 'Horário fixo', value: '3€ por visita' },
-  { icon: Clock, label: 'Visita noturna', value: '8€ por visita' },
+  { icon: Clock, label: 'Visita nocturna', value: '8€ por visita' },
   { icon: Zap, label: 'Reserva de emergência', value: '25€ (agendamento com 48h ou menos)' },
   { icon: Navigation, label: 'Taxa de deslocação', value: '0,50€/km acima de 5km' },
 ];

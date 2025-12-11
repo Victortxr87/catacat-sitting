@@ -28,11 +28,11 @@ export default function Hero() {
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-700 mb-4 max-w-3xl mx-auto leading-relaxed" data-aos="fade-up" data-aos-delay="200">
-            Serviço Premium de Cuidados Felinos
+            Serviço premium de cuidados felinos
           </p>
 
           <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="250">
-            Proteção total para seu gato enquanto você viaja. Visitas diárias com atenção especializada e monitoramento contínuo.
+            Proteção total para o seu gato enquanto viaja. Visitas diárias com atenção especializada e monitorização contínua.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center" data-aos="fade-up" data-aos-delay="300">
@@ -40,14 +40,14 @@ export default function Hero() {
               href="#pricing"
               className="inline-flex items-center px-8 py-4 bg-teal-600 text-white text-lg font-semibold rounded-full hover:bg-teal-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Conheça os Planos
+              Conheça os planos
             </a>
             <a
               href="#contact"
               className="inline-flex items-center px-8 py-4 bg-white text-teal-600 text-lg font-semibold rounded-full hover:bg-gray-50 transition-all duration-200 border-2 border-teal-600"
             >
               <Heart className="w-5 h-5 mr-2" />
-              Agendar Visita
+              Agendar visita
             </a>
           </div>
 
