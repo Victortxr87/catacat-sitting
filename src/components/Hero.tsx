@@ -7,16 +7,7 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
         <div className="text-center">
-          <div className="flex items-center justify-between bg-white/70 border border-white/60 shadow-lg rounded-full px-4 py-3 mb-12 backdrop-blur-lg max-w-2xl mx-auto">
-            <div className="flex items-center gap-2 text-sm font-semibold text-teal-700">
-              <ShieldCheck className="w-5 h-5" />
-              Sitters certificados + cobertura de responsabilidade
-            </div>
-            <div className="hidden sm:flex items-center text-sm font-semibold text-gray-700 gap-2">
-              <Sparkles className="w-5 h-5 text-amber-500" />
-              4.9★ clientes recorrentes
-            </div>
-          </div>
+          
           <div className="flex items-center justify-center mb-6">
             <Cat className="w-16 h-16 text-teal-600 drop-shadow-lg" strokeWidth={1.5} />
           </div>
