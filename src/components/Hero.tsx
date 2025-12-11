@@ -2,7 +2,7 @@ import { Heart } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-cyan-50 via-white to-emerald-50 min-h-screen flex items-center">
+    <section className="relative overflow-hidden bg-gradient-to-br from-cyan-100 via-teal-50 to-emerald-100 min-h-screen flex items-center">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(45,212,191,.25),transparent_45%),radial-gradient(circle_at_20%_20%,rgba(59,130,246,.18),transparent_35%),radial-gradient(circle_at_80%_0,rgba(14,165,233,.16),transparent_30%)]"></div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
